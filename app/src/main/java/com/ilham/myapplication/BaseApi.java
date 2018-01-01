@@ -19,7 +19,7 @@ public interface BaseApi {
     class BaseApiUtama {
         public static BaseApi buat() {
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://192.168.43.54/PenyewaanJumbo/")
+                    .baseUrl("http://192.168.100.9/PenyewaanJumbo/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
 

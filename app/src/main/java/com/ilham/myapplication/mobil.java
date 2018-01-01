@@ -64,6 +64,9 @@ import retrofit2.Response;
                 Intent In=new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+no));
                 startActivity(In);
                 break;
+            case R.id.nav_lokasi_mobil :
+                startActivity(new Intent(mobil.this, Maps.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);

@@ -9,7 +9,7 @@
         app:showAsAction="always" />
 
     <item
-        android:id="@+id/nav_lokasi_mobil"
+        android:id="@+id/nav_direction_mobil"
         android:icon="@drawable/ic_location"
         android:title="@string/lokasi"
         app:showAsAction="always" />

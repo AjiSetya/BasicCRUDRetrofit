@@ -67,7 +67,7 @@ public class mobil1 extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_lokasi_mobil :
+            case R.id.nav_direction_mobil :
                 // Buat Uri dari intent string. Gunakan hasilnya untuk membuat Intent.
                 gmmIntentUri = Uri.parse("google.navigation:q=" + ksp_agheng);
 

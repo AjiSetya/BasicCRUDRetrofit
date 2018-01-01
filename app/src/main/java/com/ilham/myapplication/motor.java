@@ -130,6 +130,9 @@ public class motor extends AppCompatActivity {
                 Intent In = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + no));
                 startActivity(In);
                 break;
+            case R.id.nav_lokasi_motor :
+                startActivity(new Intent(motor.this, Maps.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);

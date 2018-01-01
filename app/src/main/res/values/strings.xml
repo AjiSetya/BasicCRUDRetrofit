@@ -58,4 +58,5 @@
     <string name="callservice">Call Service</string>
     <string name="perbarui">Perbarui</string>
     <string name="lokasi">Lokasi</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

@@ -64,7 +64,7 @@ public class motor1 extends AppCompatActivity{
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
-            case R.id.nav_lokasi_motor :
+            case R.id.nav_direction_motor :
                 // Buat Uri dari intent string. Gunakan hasilnya untuk membuat Intent.
                 gmmIntentUri = Uri.parse("google.navigation:q=" + ksp_mapan);
 
